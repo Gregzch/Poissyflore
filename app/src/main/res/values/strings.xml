@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Poissyflore</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bottom_navigation_menu_sensors">Mon système</string>
+    <string name="bottom_navigation_menu_home">Acceuil</string>
+    <string name="bottom_navigation_menu_infos">Informations</string>
+    <string name="sensor1">Ph</string>
+    <string name="sensor2">Humidité</string>
+    <string name="sensor3">Ammoniaque</string>
+    <string name="sensor4">Température</string>
+    <string name="more">En savoir plus</string>
+</resources>
