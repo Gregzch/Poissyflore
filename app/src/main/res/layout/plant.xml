@@ -14,7 +14,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/p1"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:layout_marginStart="35dp"
@@ -22,11 +22,11 @@
                 android:layout_marginTop="42dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/truite"
+                app:srcCompat="@drawable/epinard"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f2"
+                android:id="@+id/p2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="87dp"
@@ -35,25 +35,25 @@
                 android:layout_marginEnd="73dp"
                 android:layout_marginRight="73dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/f1"
+                app:layout_constraintStart_toEndOf="@+id/p1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/carpe"
+                app:srcCompat="@drawable/salade"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f3"
+                android:id="@+id/p3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="50dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/f2"
-                app:srcCompat="@drawable/tilapia"
+                app:layout_constraintTop_toBottomOf="@+id/p2"
+                app:srcCompat="@drawable/poireau"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f4"
+                android:id="@+id/p4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="87dp"
@@ -62,25 +62,25 @@
                 android:layout_marginEnd="73dp"
                 android:layout_marginRight="73dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/f3"
-                app:layout_constraintTop_toBottomOf="@+id/f2"
-                app:srcCompat="@drawable/koi"
+                app:layout_constraintStart_toEndOf="@+id/p3"
+                app:layout_constraintTop_toBottomOf="@+id/p2"
+                app:srcCompat="@drawable/persil"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f5"
+                android:id="@+id/p5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="50dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/f4"
-                app:srcCompat="@drawable/poissonrouge"
+                app:layout_constraintTop_toBottomOf="@+id/p4"
+                app:srcCompat="@drawable/haricot_vert"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f6"
+                android:id="@+id/p6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="87dp"
@@ -89,24 +89,24 @@
                 android:layout_marginEnd="73dp"
                 android:layout_marginRight="73dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/f5"
-                app:layout_constraintTop_toBottomOf="@+id/f4"
-                app:srcCompat="@drawable/poissonchat"
+                app:layout_constraintStart_toEndOf="@+id/p5"
+                app:layout_constraintTop_toBottomOf="@+id/p4"
+                app:srcCompat="@drawable/ciboulette"
                 tools:ignore="VectorDrawableCompat" />
             <ImageView
-                android:id="@+id/f7"
+                android:id="@+id/p7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="50dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/f6"
-                app:srcCompat="@drawable/achiganagrandebouche"
+                app:layout_constraintTop_toBottomOf="@+id/p6"
+                app:srcCompat="@drawable/basilic"
                 tools:ignore="VectorDrawableCompat" />
 
             <ImageView
-                android:id="@+id/f8"
+                android:id="@+id/p8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="87dp"
@@ -115,9 +115,9 @@
                 android:layout_marginEnd="73dp"
                 android:layout_marginRight="73dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/f7"
-                app:layout_constraintTop_toBottomOf="@+id/f6"
-                app:srcCompat="@drawable/perchaude"
+                app:layout_constraintStart_toEndOf="@+id/p7"
+                app:layout_constraintTop_toBottomOf="@+id/p6"
+                app:srcCompat="@drawable/aubergine"
                 tools:ignore="VectorDrawableCompat" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

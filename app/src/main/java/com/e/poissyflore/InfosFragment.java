@@ -39,7 +39,9 @@ public class InfosFragment extends Fragment implements TabLayout.BaseOnTabSelect
                         .commit();
                 break;
             case 1:
-
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.infoframe,new Plantsfragment())
+                        .commit();
                 break;
         }
     }
